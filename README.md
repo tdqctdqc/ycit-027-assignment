@@ -12,7 +12,7 @@
 
 4. There is a bug on line 5 of script.js. Fix it. (HINT: we are trying to "resolve the promise to another promise")
 
-5. Add a new feature: when we click the button "Get Cat Image" multiple times, we want to see multiple cat images. You will need to use the DOM API to add new "<img>" elements to the page.
+5. Add a new feature: when we click the button "Get Cat Image" multiple times, we want to see multiple cat images. You will need to use the DOM API to add new "img" elements to the page.
 
 6. Stage, commit and push your changes to your repository
 
