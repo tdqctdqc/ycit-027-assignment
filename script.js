@@ -6,7 +6,13 @@ function getCatImage() {
         })
         .then((data) => {
             console.log(data[0].url);
-            document.getElementById("catImage").src = data[0].url;
+            let catImage = document.createElement("img");
+            catImage.setAttribute("alt", "cat image");
+            catImage.setAttribute("src", data[0].url);
+            let imgCont = document.querySelector(".image-container");
+            console.log(imgCont);
+            imgCont.appendChild(catImage);
+            // document.getElementById("catImage").src = data[0].url;
         });
 }
 
